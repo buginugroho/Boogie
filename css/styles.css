@@ -1,0 +1,279 @@
+
+body {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Laila', serif;
+  text-align: left;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 1rem;
+  border-color: #1eb2a6;
+  margin-bottom: 3rem;
+  width: 60%;
+  margin-top: 0;
+}
+
+/* General Heading */
+
+.header-inside {
+  text-align: center;
+}
+
+.section-heading {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.section-header-link {
+  display: block;
+  font-family: 'Laila', serif;
+  font-weight: 600;
+  margin: 0.5rem 0;
+  text-align: right;
+}
+
+/* General Section Styling */
+
+.container-fluid{
+  padding: 3% 10%;
+}
+
+.light-section {
+  background-color: #d4f8e8;
+  color: #1eb2a6;
+}
+
+.light-section .section-header-link {
+  color: #1eb2a6;
+}
+
+.dark-section {
+  background-color: #96d1c7;
+  color: #f1fcfc;
+}
+
+/* Navbar Section */
+
+#navbar-section {
+  background-color: #1eb2a6;
+}
+
+#navbar-section .nav-link {
+  color: #d4f8e8;
+  font-family: 'Laila', serif;
+  font-weight: 600;
+  margin: 0 0.75rem;
+}
+
+.navbar-logo{
+  border-radius: 100%;
+  border: solid;
+  border-color: #d4f8e8;
+  margin-left: 4rem;
+  width: 6rem;
+  height: 6rem;
+}
+
+.nav-item {
+  text-align: right;
+}
+
+/* Title Section */
+
+#title {
+}
+
+.company-title {
+  margin-bottom: 0;
+  font-family: 'Lobster Two', cursive;
+  font-size: 7rem;
+}
+
+.front-img {
+  width: 27rem;
+  height: 35rem;
+  position: absolute;
+  transform: rotate(15deg);
+  top: 2rem;
+  left: 2rem;
+}
+
+.title-carousel-button {
+  color: #96d1c7;
+}
+
+.carousel-img-title {
+  height: 18rem;
+}
+
+.highlight-caption {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* Menu Section */
+
+#menu {
+  position: relative;
+}
+
+#menu img {
+  width: 12rem;
+  height: 15rem;
+}
+
+.sub-heading {
+  margin-top: 2rem;
+  font-weight: 600;
+}
+
+.popular-menu-name {
+  font-weight: 500;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.menu-description {
+  line-height: 1.5;
+  margin: 0.5rem 0;
+}
+
+.menu-name{
+  font-weight: 500;
+  text-align: center;
+}
+
+.menu-img {
+ float: left;
+}
+
+/* News Promotion Section */
+
+#news-promotion {
+}
+
+.header-color {
+  background-color: #96d1c7;
+  color: #f1fcfc;
+  font-weight: 400;
+}
+
+.newspro-content {
+  padding: 0 0 2%;
+  height: 25rem;
+}
+
+.newspro-content img {
+  height: 60%;
+  width: 100%;
+}
+
+ .newspro-description {
+   margin: 2%;
+   padding: 1% 1% 0;
+ }
+
+/* Location Section */
+
+#location {
+  background-color: #96d1c7;
+  color: #f1fcfc;
+}
+
+#location .header {
+  padding: 3% 10% 0;
+}
+
+#location .carousel-item {
+  padding: 0 10% 3%;
+}
+
+#location .section-header-link {
+  color: #f1fcfc;
+  padding: 0 10%;
+}
+
+#location .header-inside {
+  margin-top: 1.2rem;
+}
+
+.carousel-img-location {
+  height: 25rem;
+}
+
+.location-carousel-button {
+  width: 10%;
+}
+
+/* About Section */
+
+#about {
+}
+
+.company-logo {
+  width: 55%;
+}
+
+.about-description {
+  font-size: 1.5rem;
+  line-height: 2;
+  text-align: center;
+}
+
+.contact-list {
+  margin-top: 0.5rem;
+  margin-bottom: 1.3rem;
+}
+
+.footer {
+  padding-top: 0;
+}
+
+.contact-list a {
+  color: #1eb2a6;
+  font-family: 'Laila', serif;
+  font-weight: 600;
+  margin: 0 0.75rem;
+}
+
+.about-center {
+  text-align: center;
+}
+
+/* Small Screen View */
+
+@media (max-width: 1180px) {
+
+  .front-img {
+    width: 17rem;
+    height: 25rem;
+    position: absolute;
+    transform: rotate(15deg);
+  }
+}
+
+@media (max-width: 770px) {
+
+  .company-title {
+    text-align: center;
+  }
+
+  .front-img {
+    width: 15rem;
+    height: 23rem;
+    position: absolute;
+    transform: rotate(-15deg);
+    left: 575px;
+    top: 0;
+  }
+}
